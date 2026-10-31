@@ -1,6 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,10 +21,11 @@
 
 <body>
 
-<!-- HEADER -->
+<!-- ================= HEADER ================= -->
 <header>
   <div class="logo">
     <img src="koviaaa/img/logo.jpg" alt="Logo Kovia">
+    <h1>Kovia Coffee Dip</h1>
   </div>
 
   <nav>
@@ -37,17 +39,23 @@
   </nav>
 </header>
 
-<!-- BERANDA -->
+<!-- ================= BERANDA ================= -->
 <section id="beranda">
   <h2>Selamat Datang di Kovia</h2>
+
   <p>
     Nikmati kopi hitam sehat rendah kalori dengan cita rasa
     kopi tradisional Indonesia.
   </p>
+
+  <div class="cta-buttons">
+    <a href="#produk">Lihat Produk Kami</a>
+  </div>
 </section>
 
-<!-- TENTANG KAMI -->
+<!-- ================= TENTANG KAMI ================= -->
 <section id="tentang-kami">
+
   <h2>Tentang Kami</h2>
 
   <p>
@@ -72,34 +80,46 @@
   <img src="koviaaa/img/kopi2.jpg"
        alt="Kopi hitam Kovia"
        class="fade-in">
+
 </section>
 
-<!-- MENGAPA KOVIA DIDIRIKAN -->
+<!-- ================= MENGAPA KOVIA DIDIRIKAN ================= -->
 <section>
+
   <h2>Mengapa Kovia Didirikan?</h2>
 
   <div class="features">
 
     <div class="feature">
       <h3>Obesitas</h3>
-      <p>Konsumsi gula tinggi dapat meningkatkan risiko obesitas.</p>
+      <p>
+        Konsumsi gula tinggi dapat meningkatkan risiko obesitas.
+      </p>
     </div>
 
     <div class="feature">
       <h3>Diabetes Tipe 2</h3>
-      <p>Konsumsi gula berlebih dapat meningkatkan risiko gangguan metabolisme.</p>
+      <p>
+        Konsumsi gula berlebih dapat meningkatkan risiko
+        gangguan metabolisme.
+      </p>
     </div>
 
     <div class="feature">
       <h3>Kurangnya Cita Rasa</h3>
-      <p>Kovia menjaga cita rasa kopi tradisional dengan standar profesional.</p>
+      <p>
+        Kovia menjaga cita rasa kopi tradisional dengan
+        standar profesional.
+      </p>
     </div>
 
   </div>
+
 </section>
 
-<!-- MENGAPA MEMILIH KOVIA -->
+<!-- ================= MENGAPA MEMILIH KOVIA ================= -->
 <section>
+
   <h2>Mengapa Memilih Kovia?</h2>
 
   <div class="features">
@@ -117,10 +137,12 @@
     </div>
 
   </div>
+
 </section>
 
-<!-- PRODUK -->
+<!-- ================= PRODUK ================= -->
 <section id="produk">
+
   <h2>Produk Kami</h2>
 
   <div class="features">
@@ -143,6 +165,7 @@
   </div>
 
   <div class="product-description">
+
     <h3>Kopi Hitam Kovia</h3>
 
     <p>
@@ -152,16 +175,20 @@
       Produk utama Kovia adalah kopi hitam yang diracik
       khusus untuk memberikan kenikmatan rasa kopi otentik.
     </p>
+
   </div>
+
 </section>
 
-<!-- TIPS -->
+<!-- ================= TIPS ================= -->
 <section id="tips">
+
   <h2>Tips Menikmati Kopi Sehat</h2>
 
   <ul>
     <li>
-      Minumlah kopi secara teratur tetapi dalam porsi yang wajar.
+      Minumlah kopi secara teratur tetapi dalam porsi
+      yang wajar untuk menjaga keseimbangan kesehatan.
     </li>
 
     <li>
@@ -169,7 +196,8 @@
     </li>
 
     <li>
-      Hindari menambahkan gula pasir atau krimer berlebih.
+      Hindari menambahkan gula pasir atau krimer berlebih
+      untuk menjaga rasa asli kopi hitam.
     </li>
 
     <li>
@@ -177,19 +205,22 @@
     </li>
 
     <li>
-      Hindari konsumsi kopi terlalu malam agar tidak mengganggu tidur.
+      Sajikan kopi pada waktu yang tepat dan hindari
+      konsumsi terlalu malam agar tidak mengganggu tidur.
     </li>
   </ul>
+
 </section>
 
-<!-- KONTAK -->
+<!-- ================= KONTAK ================= -->
 <section id="kontak" style="text-align:center;">
 
   <h2>Hubungi Kami</h2>
 
   <a class="cta-buttons"
      href="https://wa.me/6285601977410?text=Halo%20admin,%20saya%20tertarik%20dengan%20Kovia!"
-     target="_blank">
+     target="_blank"
+     rel="noopener noreferrer">
     Chat Admin via WhatsApp
   </a>
 
@@ -214,17 +245,26 @@
   <div class="sosial-media">
 
     <a href="https://www.instagram.com/koviacoffeedip31"
-       target="_blank" class="instagram">
+       target="_blank"
+       rel="noopener noreferrer"
+       class="instagram"
+       aria-label="Instagram">
       <i class="fab fa-instagram"></i>
     </a>
 
     <a href="https://www.tiktok.com/@kovia.coffee.dip"
-       target="_blank" class="tiktok">
+       target="_blank"
+       rel="noopener noreferrer"
+       class="tiktok"
+       aria-label="TikTok">
       <i class="fab fa-tiktok"></i>
     </a>
 
     <a href="https://www.youtube.com/@kovia"
-       target="_blank" class="youtube">
+       target="_blank"
+       rel="noopener noreferrer"
+       class="youtube"
+       aria-label="YouTube">
       <i class="fab fa-youtube"></i>
     </a>
 
@@ -232,11 +272,18 @@
 
 </section>
 
-<!-- ANIMASI GAMBAR -->
+<!-- ================= ANIMASI GAMBAR ================= -->
 <script>
 document.addEventListener("DOMContentLoaded", function() {
 
   const images = document.querySelectorAll(".fade-in");
+
+  // Jika browser tidak mendukung IntersectionObserver,
+  // gambar tetap ditampilkan.
+  if (!("IntersectionObserver" in window)) {
+    images.forEach(img => img.classList.add("visible"));
+    return;
+  }
 
   const observer = new IntersectionObserver((entries) => {
 
@@ -244,6 +291,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
       if (entry.isIntersecting) {
         entry.target.classList.add("visible");
+        observer.unobserve(entry.target);
       }
 
     });
@@ -252,14 +300,12 @@ document.addEventListener("DOMContentLoaded", function() {
     threshold: 0.1
   });
 
-  images.forEach(img => {
-    observer.observe(img);
-  });
+  images.forEach(img => observer.observe(img));
 
 });
 </script>
 
-<!-- FOOTER -->
+<!-- ================= FOOTER ================= -->
 <footer>
   <p>&copy; 2025 Kovia. All Rights Reserved.</p>
 </footer>
